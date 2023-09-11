@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+.shows, .movieinfo{
+	margin-left:30%;
+}
+h2{
+	margin-left:15%;
+}
+table{
+width: 50%
+}
+
+table, th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+    text-align:center;
+}  
+th{
+	background-color: gray;
+}
+th, td {  
+    padding: 10px;  
+}  
+table#alter tr:nth-child(even) {  
+    background-color: #eee;  
+}  
+table#alter tr:nth-child(odd) {  
+    background-color: #fff;  
+}  
+table#alter th {  
+    color: white;  
+    background-color: gray;  
+}
