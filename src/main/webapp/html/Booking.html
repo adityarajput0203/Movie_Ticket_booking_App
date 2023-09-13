@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MovieMagic Booking</title>
+<link rel="stylesheet" type="text/css" href="css/Booking.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+
+<body>
+	<div class="contianer">
+		<div class="form-container">
+		            <h2>Book Seats</h2>
+		            <form action="BookingProcess.jsp" class="form1">
+		                <label for="numSeats">Number of Seats:</label>
+		                <select id="numSeats" name="numSeats">
+		                    <option value="1">1</option>
+		                    <option value="2">2</option>
+		                    <option value="3">3</option>
+		                    <option value="4">4</option>
+		                    <option value="5">5</option>
+		                    <option value="6">6</option>
+		                </select>
+		                <br>
+		                <br>
+		
+		                <label for="seatingArea">Price:</label>
+		                <div class="radio-group">
+		                    <input type="radio" id="silver" name="price" value="100">
+		                    <label for="silver">Silver (100 Rs)</label>
+		                    <input type="radio" id="gold" name="price" value="150">
+		                    <label for="gold">Gold (150 Rs)</label>
+		                    <input type="radio" id="platinum" name="price" value="200">
+		                    <label for="platinum">Platinum (200 Rs)</label>
+		                </div>
+		                <br>
+		                <br>
+		                <br>
+		
+		                <button class="button" type="submit">Book Now</button>
+		            </form>
+		        </div>
+		</div>
+
+</body>
+</html>
